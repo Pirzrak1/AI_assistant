@@ -52,7 +52,7 @@ class Camera:
             if not ret:
                 break
 
-            cv2.imshow('Camera Feed', frame)                       #leana lovings
+            cv2.imshow('Camera Feed', frame)                       
             if cv2.waitKey(1)& 0xFF == ord('q'):
                 break
         self.close()  
